@@ -1,4 +1,4 @@
-symbol_coords = set()
+pt_gear_coords = set()
 all_part_numbers = []
 max_col = None
 
@@ -63,17 +63,22 @@ with open('./3/input.txt', 'r') as f:
                 new_part_number.finalise()
                 all_part_numbers.append(new_part_number)
 
-            elif char != '.':  # is a symbol
-                symbol_coords.add(tuple([col_num, row_num]))
+            elif char == '*':  # potentially a gear
+                pt_gear_coords.add(tuple([col_num, row_num]))
 
             col_num += 1
 
 
-# for each part number, check if a symbol intersects with its adjacent cells
-schematic_sum = 0
+# for each gear, count number of numbers that it intersects with
+touched_gear_count = {k: [] for k in pt_gear_coords}
 
 for part_number in all_part_numbers:
-    if symbol_coords.intersection(part_number.adj_coords):
-        schematic_sum += part_number.value
+    for touched_gear in pt_gear_coords.intersection(part_number.adj_coords):
+        touched_gear_count[touched_gear].append(part_number)
 
-print(schematic_sum)
+total_sum = 0
+for k, v in touched_gear_count.items():
+    if len(v) == 2:
+        total_sum += v[0].value * v[1].value
+
+print(total_sum)
