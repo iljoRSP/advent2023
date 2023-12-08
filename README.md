@@ -28,3 +28,12 @@ Adding on overall thoughts for each day:
 
 ### <u>Day 4</u>
 > Part 1 is extremely straight forward, and I may have cheated a bit by parsing it with fixed distance instead of delims. "If it works then it's not stupid". Part 2 was hardest in understanding how the chaining worked, but once you get that down, it too is very straight forward. I particularly like how it forces you into dynamic programming - in the sense that if you didn't know what DP was, you might just reach the same implementation anyway. Some may see it as forced, but I choose to see it as 'organic'.
+
+### <u>Day 5</u>
+> Day 5 was tough. I'll put it out there. I started part 1 knowing that my approach was an exhaustive search, and that it wasn't going to hold for a larger search space... and boom, part 2 hit me. Thankfully, implementing part 1 already had me reframing the maps as piecewise functions, so I very soon reached my part 2 solution. That said, I chose not to implement it due to burn out from part 1 (somehow), so I kept to proving that the approach would work.
+
+### <u>Day 6</u>
+> Comically easy. Working out the mathematics behind this made me feel almost nostalgic for my IGCSE add maths classes (lol). My biggest fear was the possibility of part 2 introducing deceleration, or 2D vectoring - which was thankfully not the case.
+
+### <u>Day 7</u>
+> Knowing about python's Counter and sort behaviour, this was pretty easy - it became a problem of just reframing the problem into Counter terms. That said, my approach leaves a lot of room for optimisation. Not much to say about this one.
