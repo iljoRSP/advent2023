@@ -46,3 +46,6 @@ Adding on overall thoughts for each day:
 
 ### <u>Day 10</u>
 > Part 1 is super straight forward - with some insights I quickly reached a pretty good algorithm (that was poorly implemented). Part 2 was more challenging than I thought, though. Due to my experience with pencil puzzles, I quickly identified the parity method of counting innies and outies, but failed to recognise early on how to identify when a parity is swapped. I settled on this string-based solution the very end, after struggling with a iterate-and-update-flags method.
+
+### <u>Day 11</u>
+> Here it is - the dreaded numpy application. I have been trying my damnedest to avoid this god forsaken library, but today was finally the day I cracked. Maybe it was possible without, but the utility of using it definitely shone through here. My biggest issue with this library is just the readability as you enter the realm of 3+ dimensional arrays, especially when reshaping or transposing is involved... ...I'm just complaining. Anyway, the puzzle itself was pretty straight forward: I had less trouble figuring it out than actually implementing it (see above). Fun one though.
