@@ -43,3 +43,6 @@ Adding on overall thoughts for each day:
 
 ### <u>Day 9</u>
 > Perhaps one of the most trivial puzzles so far - at least perhaps to bypass/brute force, assuming there was some underlying logic/math to be discovered. With the approach I took, there was not much problem solving and much less just implementing what's spelt out in the puzzle description. Part 2 took this to a comical extent, simply requiring me to just reverse the starting sequence before applying the Part 1 solution again.
+
+### <u>Day 10</u>
+> Part 1 is super straight forward - with some insights I quickly reached a pretty good algorithm (that was poorly implemented). Part 2 was more challenging than I thought, though. Due to my experience with pencil puzzles, I quickly identified the parity method of counting innies and outies, but failed to recognise early on how to identify when a parity is swapped. I settled on this string-based solution the very end, after struggling with a iterate-and-update-flags method.
