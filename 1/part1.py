@@ -1,4 +1,4 @@
-with open('./input.txt', 'r') as input:
+with open('./1/input.txt', 'r') as input:
     sum = 0
     for line in input.readlines():
         # line = threerznlrhtkjp23mtflmbrzq395three

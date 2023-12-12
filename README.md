@@ -37,3 +37,9 @@ Adding on overall thoughts for each day:
 
 ### <u>Day 7</u>
 > Knowing about python's Counter and sort behaviour, this was pretty easy - it became a problem of just reframing the problem into Counter terms. That said, my approach leaves a lot of room for optimisation. Not much to say about this one.
+
+### <u>Day 8</u>
+> I was extremely stuck on part 1 - not because it was tough, no, no. It was a comprehension issue: I thought you'd have to start from LFM (first in the row), not AAA. This made my simple traversal get stuck on an infinite loop, which I thought was just a severely unoptimised solution that I'd have to fix by identifying cycles along the path and mathing out of them early. This led me to drawing out the graph (with networkx) and finding out that the graph was really 4 or 5 separate cycles. This insight proved extremely useful for part 2.
+
+### <u>Day 9</u>
+> Perhaps one of the most trivial puzzles so far - at least perhaps to bypass/brute force, assuming there was some underlying logic/math to be discovered. With the approach I took, there was not much problem solving and much less just implementing what's spelt out in the puzzle description. Part 2 took this to a comical extent, simply requiring me to just reverse the starting sequence before applying the Part 1 solution again.

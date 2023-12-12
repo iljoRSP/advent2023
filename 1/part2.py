@@ -16,7 +16,7 @@ def parse_num_or_word(word: str) -> int:
         'nine': 9
     }[word]
 
-with open('./input.txt', 'r') as f:
+with open('./1/input.txt', 'r') as f:
     sum = 0
 
     for line in f.readlines():
